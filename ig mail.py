@@ -47,7 +47,7 @@ class DemoFindElementByID():
         sleep(2)
         print('Definindo uma senha...')
         password = driver.find_element_by_css_selector("input[name='password']")
-        password.send_keys("180599")
+        password.send_keys("123456789")
         login_button = driver.find_element_by_xpath("//button[@type='submit']")
         login_button.click()
         print ('Definindo a data de aniversário da conta...')
